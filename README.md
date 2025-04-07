@@ -6,7 +6,7 @@ This repository contains code developed as part of a research project focused on
 
 The project aims to classify the cost textual descriptions basing on a 3 hierarchical level data structure, and finally extract relevant fields (e.g., disciplines, systems, and objects) in the construction sector.
 These taxonomies are structured in JSON format and represent different levels of classification. The extraction process supports analysis, validation, and potential integration with digital models such as BIM or cost ontologies.
-The dynamic prompt is built as explained in the figure:
+The dynamic prompt is built using OpenAI API to recall GPT 4.0 model in Google Colab environment, and follows the workflow in the following figure:
 
 
 ![Methodology(1)](https://github.com/user-attachments/assets/32f1ac19-7cac-4a99-83cf-e5606e39c60c)
